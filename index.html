@@ -31,31 +31,31 @@
 </head>
 <body class="bg-white">
     <!-- Header -->
-    <header class="border-b border-blue-100 bg-white/95 backdrop-blur sticky top-0 z-50">
+    <header id="#top" class="border-b border-blue-100 bg-white/95 backdrop-blur sticky top-0 z-50">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center py-4">
                 <div class="flex items-center space-x-2">
                     <div class="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
                         <i class="fas fa-book-open text-white text-sm"></i>
                     </div>
-                    <span class="text-xl font-bold text-blue-800">Fieldbook & Plot Register Viewer</span>
+                    <a href="#top"><span class="text-xl font-bold text-blue-800">Fieldbook & Plot Register Viewer</span></a>
                 </div>
                 <nav class="hidden md:flex space-x-8">
                     <a href="#about" class="text-blue-700 hover:text-blue-800 font-medium">About</a>
                     <a href="#features" class="text-blue-700 hover:text-blue-800 font-medium">Features</a>
                     <a href="#screenshots" class="text-blue-700 hover:text-blue-800 font-medium">Screenshots</a>
                     <a href="#download" class="text-blue-700 hover:text-blue-800 font-medium">Download</a>
-                    <a href="#documentation" class="text-blue-700 hover:text-blue-800 font-medium">Documentation</a>
+                    <a href="#tutorial" class="text-blue-700 hover:text-blue-800 font-medium">Tutorial</a>
                     <a href="#contact" class="text-blue-700 hover:text-blue-800 font-medium">Contact</a>
                 </nav>
-                <div class="flex items-center space-x-4">
+                <!-- <div class="flex items-center space-x-4">
                     <button class="border border-blue-600 text-blue-600 hover:bg-blue-50 bg-transparent px-4 py-2 rounded-md font-medium">
                         Sign In
                     </button>
                     <button class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md font-medium">
                         Get Started
                     </button>
-                </div>
+                </div> -->
             </div>
         </div>
     </header>
@@ -81,15 +81,15 @@
                             <i class="fas fa-download mr-2"></i>
                             Download Now
                         </button>
-                        <button class="border border-blue-600 text-blue-600 hover:bg-blue-50 bg-transparent px-6 py-3 rounded-md font-medium flex items-center justify-center">
+                        <a href="#tutorial"><button class="border border-blue-600 text-blue-600 hover:bg-blue-50 bg-transparent px-6 py-3 rounded-md font-medium flex items-center justify-center">
                             Watch Tutorial
-                            <i class="fas fa-arrow-right ml-2"></i>
+                            <i class="fas fa-arrow-right ml-2"></i></a>
                         </button>
                     </div>
                 </div>
                 <div class="relative">
                     <div class="bg-blue-600 rounded-2xl p-8 shadow-2xl">
-                        <img src="/placeholder.svg?height=400&width=600&text=Fieldbook+Dashboard+Preview" 
+                        <img src="img/Screenshot-dashboard-1.png" 
                              alt="Fieldbook Viewer Dashboard" 
                              class="rounded-lg shadow-lg w-full h-auto">
                     </div>
@@ -209,52 +209,30 @@
 
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div class="bg-blue-50 rounded-lg p-4">
-                    <img src="/placeholder.svg?height=300&width=400&text=Dashboard+Overview" 
+                    <img src="img/Screenshot-dashboard-1.png" 
                          alt="Dashboard Overview" 
                          class="w-full h-48 object-cover rounded-lg mb-4">
                     <h3 class="text-lg font-semibold text-blue-900 mb-2">Dashboard Overview</h3>
-                    <p class="text-blue-600 text-sm">Get a comprehensive view of all your agricultural data at a glance.</p>
+                    <p class="text-blue-600 text-sm">Search your required fieldbook</p>
                 </div>
 
                 <div class="bg-blue-50 rounded-lg p-4">
-                    <img src="/placeholder.svg?height=300&width=400&text=Plot+Register+View" 
+                    <img src="img/Screenshot-dashboard-2.png" 
                          alt="Plot Register View" 
                          class="w-full h-48 object-cover rounded-lg mb-4">
-                    <h3 class="text-lg font-semibold text-blue-900 mb-2">Plot Register View</h3>
-                    <p class="text-blue-600 text-sm">Detailed plot information with easy navigation and search capabilities.</p>
+                    <h3 class="text-lg font-semibold text-blue-900 mb-2">Crop and Save</h3>
+                    <p class="text-blue-600 text-sm">Crop the Portion of the Fieldbook you want to save/print</p>
                 </div>
 
                 <div class="bg-blue-50 rounded-lg p-4">
-                    <img src="/placeholder.svg?height=300&width=400&text=Interactive+Maps" 
+                    <img src="img/Screenshot-dashboard-3.png" 
                          alt="Interactive Maps" 
                          class="w-full h-48 object-cover rounded-lg mb-4">
-                    <h3 class="text-lg font-semibold text-blue-900 mb-2">Interactive Maps</h3>
-                    <p class="text-blue-600 text-sm">Visualize your plots with interactive mapping and GPS integration.</p>
+                    <h3 class="text-lg font-semibold text-blue-900 mb-2">Print Preview</h3>
+                    <p class="text-blue-600 text-sm">Easily preview and print your fieldbook or plot register in ms word. </p>
                 </div>
 
-                <div class="bg-blue-50 rounded-lg p-4">
-                    <img src="/placeholder.svg?height=300&width=400&text=Data+Analytics" 
-                         alt="Data Analytics" 
-                         class="w-full h-48 object-cover rounded-lg mb-4">
-                    <h3 class="text-lg font-semibold text-blue-900 mb-2">Data Analytics</h3>
-                    <p class="text-blue-600 text-sm">Advanced analytics and reporting tools for data-driven decisions.</p>
-                </div>
-
-                <div class="bg-blue-50 rounded-lg p-4">
-                    <img src="/placeholder.svg?height=300&width=400&text=Mobile+Interface" 
-                         alt="Mobile Interface" 
-                         class="w-full h-48 object-cover rounded-lg mb-4">
-                    <h3 class="text-lg font-semibold text-blue-900 mb-2">Mobile Interface</h3>
-                    <p class="text-blue-600 text-sm">Fully responsive design that works perfectly on all devices.</p>
-                </div>
-
-                <div class="bg-blue-50 rounded-lg p-4">
-                    <img src="/placeholder.svg?height=300&width=400&text=Export+Options" 
-                         alt="Export Options" 
-                         class="w-full h-48 object-cover rounded-lg mb-4">
-                    <h3 class="text-lg font-semibold text-blue-900 mb-2">Export Options</h3>
-                    <p class="text-blue-600 text-sm">Multiple export formats for seamless data sharing and reporting.</p>
-                </div>
+            
             </div>
         </div>
     </section>
@@ -263,56 +241,27 @@
     <section id="download" class="py-20 bg-blue-600">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 class="text-3xl lg:text-4xl font-bold text-white mb-4">
-                Download Fieldbook Viewer Today
+                Download Fieldbook & Plot Register Viewer Today
             </h2>
             <p class="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-                Get started with our powerful agricultural data management solution. Available for Windows, Mac, and Linux.
+                Get started with Fieldbook and Plot Register Viewer Today. Available for Windows.
             </p>
             
-            <div class="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto mb-8">
+            <div class="grid md:grid-cols-1 gap-6 max-w-4xl mx-auto mb-8">
                 <div class="bg-white/10 backdrop-blur rounded-lg p-6 text-white">
                     <i class="fab fa-windows text-4xl mb-4"></i>
                     <h3 class="text-xl font-semibold mb-2">Windows</h3>
-                    <p class="text-blue-100 mb-4">Compatible with Windows 10 and 11</p>
+                    <p class="text-blue-100 mb-4">Compatible with Windows 7, 10 and 11</p>
                     <button class="bg-white text-blue-600 hover:bg-blue-50 px-6 py-2 rounded-md font-medium w-full">
                         <i class="fas fa-download mr-2"></i>Download
                     </button>
                 </div>
-
-                <div class="bg-white/10 backdrop-blur rounded-lg p-6 text-white">
-                    <i class="fab fa-apple text-4xl mb-4"></i>
-                    <h3 class="text-xl font-semibold mb-2">macOS</h3>
-                    <p class="text-blue-100 mb-4">Compatible with macOS 10.15+</p>
-                    <button class="bg-white text-blue-600 hover:bg-blue-50 px-6 py-2 rounded-md font-medium w-full">
-                        <i class="fas fa-download mr-2"></i>Download
-                    </button>
-                </div>
-
-                <div class="bg-white/10 backdrop-blur rounded-lg p-6 text-white">
-                    <i class="fab fa-linux text-4xl mb-4"></i>
-                    <h3 class="text-xl font-semibold mb-2">Linux</h3>
-                    <p class="text-blue-100 mb-4">Ubuntu, Debian, and more</p>
-                    <button class="bg-white text-blue-600 hover:bg-blue-50 px-6 py-2 rounded-md font-medium w-full">
-                        <i class="fas fa-download mr-2"></i>Download
-                    </button>
-                </div>
-            </div>
-
-            <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                <button class="bg-white text-blue-600 hover:bg-blue-50 px-8 py-3 rounded-md font-medium flex items-center justify-center">
-                    <i class="fas fa-play mr-2"></i>
-                    Start Free Trial
-                </button>
-                <button class="border border-white text-white hover:bg-blue-700 bg-transparent px-8 py-3 rounded-md font-medium flex items-center justify-center">
-                    <i class="fas fa-calendar mr-2"></i>
-                    Schedule Demo
-                </button>
             </div>
         </div>
     </section>
 
-    <!-- Documentation Section -->
-    <section id="documentation" class="py-20 bg-blue-50">
+    <!-- <!-- Documentation Section -->
+    <!-- <section id="documentation" class="py-20 bg-blue-50">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-3xl lg:text-4xl font-bold text-blue-900 mb-4">Documentation & Support</h2>
@@ -386,123 +335,72 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --> -->
 
-    <!-- Contact Section -->
-    <section id="contact" class="py-20 bg-white">
-        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl lg:text-4xl font-bold text-blue-900 mb-4">Get In Touch</h2>
-                <p class="text-xl text-blue-700 max-w-3xl mx-auto">
-                    Have questions about Fieldbook Viewer? We'd love to hear from you. Send us a message and we'll respond as soon as possible.
-                </p>
-            </div>
 
-            <div class="grid lg:grid-cols-2 gap-12">
-                <div>
-                    <div class="space-y-8">
-                        <div class="flex items-start space-x-4">
-                            <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                                <i class="fas fa-map-marker-alt text-blue-600 text-xl"></i>
-                            </div>
-                            <div>
-                                <h3 class="text-lg font-semibold text-blue-900 mb-1">Office Address</h3>
-                                <p class="text-blue-600">123 Agricultural Tech Drive<br>Farm Valley, CA 94105<br>United States</p>
-                            </div>
-                        </div>
+    <!-- Video Tutorial Section -->
+<section id="tutorial" class="py-20 bg-white">
+  <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl lg:text-4xl font-bold text-blue-900 mb-4">
+        Watch Video Tutorial
+      </h2>
+      <p class="text-xl text-blue-700 max-w-3xl mx-auto">
+        Learn how to get started with Fieldbook & Plot Register Viewer in just a few minutes.
+      </p>
+    </div>
+    <div class="relative max-w-4xl mx-auto aspect-video rounded-xl overflow-hidden shadow-lg">
+      <iframe 
+        class="w-full h-full" 
+        src="https://www.youtube.com/embed/Fa2havRjGmc" 
+        title="Fieldbook & Plot Register Viewer Tutorial" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+      </iframe>
+    </div>
+  </div>
+</section>
 
-                        <div class="flex items-start space-x-4">
-                            <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                                <i class="fas fa-phone text-blue-600 text-xl"></i>
-                            </div>
-                            <div>
-                                <h3 class="text-lg font-semibold text-blue-900 mb-1">Phone Number</h3>
-                                <p class="text-blue-600">+1 (555) 123-4567<br>Mon-Fri 9AM-6PM PST</p>
-                            </div>
-                        </div>
 
-                        <div class="flex items-start space-x-4">
-                            <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                                <i class="fas fa-envelope text-blue-600 text-xl"></i>
-                            </div>
-                            <div>
-                                <h3 class="text-lg font-semibold text-blue-900 mb-1">Email Address</h3>
-                                <p class="text-blue-600">support@fieldbookviewer.com<br>sales@fieldbookviewer.com</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+   <!-- Contact Section -->
+<section id="contact" class="py-20 bg-white">
+  <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-16">
+      <h2 class="text-3xl lg:text-4xl font-bold text-blue-900 mb-4">Get In Touch</h2>
+      <p class="text-xl text-blue-700 max-w-3xl mx-auto">
+        Have questions about Fieldbook Viewer? We'd love to hear from you. Contact us directly via email or visit our website.
+      </p>
+    </div>
 
-                <div class="bg-blue-50 rounded-lg p-8">
-                    <form class="space-y-6">
-                        <div class="grid md:grid-cols-2 gap-6">
-                            <div>
-                                <label for="firstName" class="block text-sm font-medium text-blue-900 mb-2">First Name</label>
-                                <input type="text" id="firstName" name="firstName" 
-                                       class="w-full px-4 py-3 border border-blue-200 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
-                            </div>
-                            <div>
-                                <label for="lastName" class="block text-sm font-medium text-blue-900 mb-2">Last Name</label>
-                                <input type="text" id="lastName" name="lastName" 
-                                       class="w-full px-4 py-3 border border-blue-200 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
-                            </div>
-                        </div>
+    <div class="max-w-3xl mx-auto bg-blue-50 rounded-lg p-8 text-center space-y-6">
+      <div class="flex flex-col items-center space-y-2">
+        <i class="fas fa-envelope text-blue-600 text-2xl"></i>
+        <a href="mailto:dineshbishwakarma98@gmail.com" class="text-blue-700 hover:text-blue-900 text-lg font-medium">
+          dineshbishwakarma98@gmail.com
+        </a>
+        <a href="mailto:dinesh.bishwakarma@nepal.gov.np" class="text-blue-700 hover:text-blue-900 text-lg font-medium">
+          dinesh.bishwakarma@nepal.gov.np
+        </a>
+      </div>
 
-                        <div>
-                            <label for="email" class="block text-sm font-medium text-blue-900 mb-2">Email Address</label>
-                            <input type="email" id="email" name="email" 
-                                   class="w-full px-4 py-3 border border-blue-200 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
-                        </div>
+      <div class="flex flex-col items-center space-y-2">
+        <i class="fas fa-globe text-blue-600 text-2xl"></i>
+        <a href="http://www.dineshbishwakarma.com.np" target="_blank" class="text-blue-700 hover:text-blue-900 text-lg font-medium">
+          www.dineshbishwakarma.com.np
+        </a>
+      </div>
 
-                        <div>
-                            <label for="subject" class="block text-sm font-medium text-blue-900 mb-2">Subject</label>
-                            <select id="subject" name="subject" 
-                                    class="w-full px-4 py-3 border border-blue-200 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
-                                <option>General Inquiry</option>
-                                <option>Technical Support</option>
-                                <option>Sales Question</option>
-                                <option>Feature Request</option>
-                                <option>Bug Report</option>
-                            </select>
-                        </div>
+      <div class="pt-6 border-t border-blue-200">
+        <p class="text-blue-600 font-medium">
+          Developed in coordination with <a href="https://www.geoneer.com.np" target="new"><span class="font-bold text-blue-800">Geoneer</span></a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
 
-                        <div>
-                            <label for="message" class="block text-sm font-medium text-blue-900 mb-2">Message</label>
-                            <textarea id="message" name="message" rows="4" 
-                                      class="w-full px-4 py-3 border border-blue-200 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-                                      placeholder="Tell us how we can help you..."></textarea>
-                        </div>
-
-                        <button type="submit" 
-                                class="w-full bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-md font-medium flex items-center justify-center">
-                            <i class="fas fa-paper-plane mr-2"></i>
-                            Send Message
-                        </button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Stats Section -->
-    <section class="py-20 bg-blue-50">
-        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid md:grid-cols-3 gap-8 text-center">
-                <div>
-                    <div class="text-4xl font-bold text-blue-600 mb-2">10,000+</div>
-                    <div class="text-blue-700 font-medium">Active Users</div>
-                </div>
-                <div>
-                    <div class="text-4xl font-bold text-blue-600 mb-2">50M+</div>
-                    <div class="text-blue-700 font-medium">Records Managed</div>
-                </div>
-                <div>
-                    <div class="text-4xl font-bold text-blue-600 mb-2">99.9%</div>
-                    <div class="text-blue-700 font-medium">Uptime</div>
-                </div>
-            </div>
-        </div>
-    </section>
+  
 
     <!-- Footer -->
     <footer class="bg-blue-900 text-blue-100 py-12">
@@ -515,9 +413,9 @@
                         </div>
                         <span class="text-xl font-bold">Fieldbook Viewer</span>
                     </div>
-                    <p class="text-blue-300 mb-4">Streamlining agricultural data management for modern farms.</p>
+                    <p class="text-blue-300 mb-4">Easy viewing and printing of Fieldbooks</p>
                     <div class="flex space-x-4">
-                        <a href="#" class="text-blue-300 hover:text-white">
+                        <a href="#top" class="text-blue-300 hover:text-white">
                             <i class="fab fa-facebook text-xl"></i>
                         </a>
                         <a href="#" class="text-blue-300 hover:text-white">
@@ -543,7 +441,7 @@
                 <div>
                     <h3 class="font-semibold mb-4">Support</h3>
                     <ul class="space-y-2 text-blue-300">
-                        <li><a href="#documentation" class="hover:text-white">Documentation</a></li>
+                        <li><a href="#tutorial" class="hover:text-white">Tutorial</a></li>
                         <li><a href="#" class="hover:text-white">Help Center</a></li>
                         <li><a href="#contact" class="hover:text-white">Contact</a></li>
                         <li><a href="#" class="hover:text-white">Community</a></li>
@@ -553,14 +451,16 @@
                     <h3 class="font-semibold mb-4">Company</h3>
                     <ul class="space-y-2 text-blue-300">
                         <li><a href="#about" class="hover:text-white">About</a></li>
-                        <li><a href="#" class="hover:text-white">Blog</a></li>
-                        <li><a href="#" class="hover:text-white">Privacy</a></li>
-                        <li><a href="#" class="hover:text-white">Terms</a></li>
+                        <!-- <li><a href="#" class="hover:text-white">Blog</a></li> -->
+                        <!-- <li><a href="#" class="hover:text-white">Privacy</a></li> -->
+                        <li><a href="https://www.dineshbishwakarma.com.np" class="hover:text-white">Dinesh Bishwakarma</a></li>
+                        <li><a href="https://www.geoneer.com.np" class="hover:text-white">Geoneer</a></li>
+
                     </ul>
                 </div>
             </div>
             <div class="border-t border-blue-800 mt-8 pt-8 text-center text-blue-300">
-                <p>&copy; 2024 Fieldbook Viewer. All rights reserved.</p>
+                <p>&copy; 2025 Fieldbook & Plot Register Viewer. All rights reserved.</p>
             </div>
         </div>
     </footer>
